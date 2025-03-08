@@ -1,0 +1,8 @@
+# search link
+https://www.avito.ru/all/avtomobili/volkswagen/tiguan/
+
+# description class
+styles-module-root-_KFFt styles-module-size_s-awPvv styles-module-size_s-_P6ZA stylesMarningNormal-module-root-OSCNq stylesMarningNormal-module-paragraph-s-_c6vD
+
+# prices class
+styles-module-root-LIAav

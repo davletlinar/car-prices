@@ -1,0 +1,18 @@
+services:
+  app:
+    build: .
+    container_name: car-prices-py
+    ports:
+      - 8000:8000
+    volumes:
+      - .:/app
+    networks:
+      - car-prices-py_default
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB}
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+
+networks:
+  car-prices-py_default:
+    external: true

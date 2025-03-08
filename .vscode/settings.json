@@ -1,0 +1,34 @@
+{
+    "files.watcherExclude": {
+        "**/target": true
+    },
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "0.0.0.0",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "car-prices-local",
+            "database": "car-prices",
+            "username": "postgres"
+        },
+        {
+            "previewLimit": 50,
+            "server": "193.104.57.46",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "car-prices-remote",
+            "database": "car-prices",
+            "username": "postgres"
+        }
+    ],
+    "python.testing.pytestArgs": [
+        "."
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "yaml.schemas": {
+        "https://json.schemastore.org/yamllint.json": "file:///Users/davletlinar/Documents/Python/car_prices/clickhouse/car-prices-clickhouse.yaml",
+        "https://raw.githubusercontent.com/compose-spec/compose-spec/master/schema/compose-spec.json": "file:///Users/davletlinar/Documents/Python/car_prices/clickhouse/car-prices-clickhouse.yml"
+    }
+}

@@ -1,0 +1,10 @@
+*.ipynb
+csv_files/
+.vscode/*
+**/__pycache__
+**/.pytest_cache
+.vscode
+.DS_Store
+**/html_files
+**/tests
+.env
